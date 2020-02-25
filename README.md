@@ -1,10 +1,35 @@
 # PhosphoView : MSc Bioinformatics Software Development Group Project
 
-`PhosphoView is a web application that can be used to explore background information about human protein kinases and the sites they phosphorylate. It is capable of calculating the level of activity of each human kinase from experimental datasets uploaded by the user.`
+`
+PhosphoView is a web application that can be used to explore background information about human protein kinases and the sites they phosphorylate. It is capable of calculating the level of activity of each human kinase from experimental datasets uploaded by the user.`
 
-## Installing PhosphoView
+## Deployed Web Application
 
-To install <PhosphoView>, follow these steps:
+http://phosphoview-docker.xfqyhkzn9j.us-east-2.elasticbeanstalk.com
+
+## Running PhosphoView locally
+
+To install PhosphoView, follow these steps:
+
+1. ```Git clone https://github.com/MO105/DreamTeam ```
+2. ```cd DreamTeam/app ```
+3. ```pip install -r requirements.txt ```
+
+
+Linux and macOS:
+```
+1. export FLASK_APP=app.py
+2. flask run
+```
+
+Windows:
+```
+1. set FLASK_APP=app.py 
+2. flask run
+```
+
+Application runs on ``` localhost:5000 ```
+
 
 
 ## Contributors
